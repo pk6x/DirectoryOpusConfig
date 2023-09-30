@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<scriptcolumns>
+	<col id="0" name="Blank Spacer" script="1A48CE9F-A49C-4BAB-B115-577B3449D52C" />
+	<col id="1" name="SHA256" script="FFC843D6-1D0A-4787-97F8-7E2B72FF3EAF" />
+	<col id="2" name="SHA512" script="FFC843D6-1D0A-4787-97F8-7E2B72FF3EAF" />
+</scriptcolumns>

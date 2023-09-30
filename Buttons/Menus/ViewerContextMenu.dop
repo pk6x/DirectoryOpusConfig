@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<toolbar version="12.33">
+	<wallpaper enabled="no" inheritable="yes" type="tile" />
+	<buttons backcol="none" display="label" textcol="none" type="menu">
+		<button backcol="none" display="label" label_pos="right" textcol="none">
+			<label>Previous Picture</label>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=prev</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none">
+			<label>Next Picture</label>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=next</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" textcol="none">
+			<label>Rotate Left</label>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=rotate,-90</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" textcol="none">
+			<label>Rotate Right</label>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=rotate,+90</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none" type="menu">
+			<label>&amp;View Size</label>
+			<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none">
+				<label>&amp;Original Size</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=zoom,reset</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>&amp;25% </label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=zoom,25</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>&amp;50% </label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=zoom,50</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>&amp;75% </label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=zoom,75</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>&amp;150% </label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=zoom,150</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>2&amp;00% </label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=zoom,200</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>&amp;300% </label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=zoom,300</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>&amp;400% </label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=zoom,400</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none">
+				<label>&amp;800% </label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=zoom,800</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>&amp;Fit To Page</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=zoom,fit</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>&amp;Grow To Page</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=zoom,grow</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>&amp;Tiled</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=zoom,tile</instruction>
+				</function>
+			</button>
+		</button>
+		<button backcol="none" display="label" label_pos="right" textcol="none">
+			<label>Open...</label>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=open</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" textcol="none">
+			<label>Save</label>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=save</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" textcol="none">
+			<label>Save As...</label>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=saveas</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none">
+			<label>Print...</label>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=print</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" textcol="none">
+			<label>Convert Image...</label>
+			<function type="normal">
+				<instruction>@useimagedata</instruction>
+				<instruction>Image CONVERT</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none" type="menu">
+			<label>&amp;Set As Desktop Wallpaper</label>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>&amp;Center</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=wallpaper,center</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>&amp;Tile</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=wallpaper,tile</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>&amp;Stretch</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=wallpaper,stretch</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>&amp;Fit</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=wallpaper,fit</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>F&amp;ill</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=wallpaper,fill</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>S&amp;pan</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=wallpaper,span</instruction>
+				</function>
+			</button>
+		</button>
+		<button backcol="none" display="label" label_pos="right" textcol="none">
+			<label>Copy To...</label>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=copyto</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" textcol="none">
+			<label>Move To...</label>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=moveto</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none">
+			<label>Rename</label>
+			<function type="normal">
+				<instruction>Rename SIMPLE</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" textcol="none">
+			<label>Cut File</label>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=cut</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none">
+			<label>Delete</label>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=delete</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" textcol="none">
+			<label>Select All</label>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=selectall</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" textcol="none">
+			<label>Reselect</label>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=reselect</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none">
+			<label>Copy</label>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=copy</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" textcol="none">
+			<label>Crop</label>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=crop</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none">
+			<label>Undo</label>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=restore</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none">
+			<label>Mark File</label>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=mark,toggle</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" textcol="none">
+			<label>Show Information</label>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=info</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none">
+			<label>Edit Metadata</label>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=meta</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" textcol="none">
+			<label>Slideshow</label>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=slideshow</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none">
+			<label>Full Screen</label>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=fullscreen</instruction>
+			</function>
+		</button>
+		<button backcol="none" label_pos="right" textcol="none">
+			<label>Close</label>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=close</instruction>
+			</function>
+		</button>
+	</buttons>
+</toolbar>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<scriptaddins>
+	<disabled>
+		<script id="{1A48CE9F-A49C-4BAB-B115-577B3449D52C}" />
+	</disabled>
+	<idmap>
+		<script id="{1A48CE9F-A49C-4BAB-B115-577B3449D52C}" path="BlankSpacerColumn.js" />
+		<script id="{FFC843D6-1D0A-4787-97F8-7E2B72FF3EAF}" path="SHA-256.js" />
+	</idmap>
+</scriptaddins>

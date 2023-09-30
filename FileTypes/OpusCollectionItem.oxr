@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml_registry_redirect hive="HKCR" regkey="OpusCollectionItem">
+	<key name="opus">
+		<key name="remove">
+			<value name="@default" type="sz">&amp;Remove From Collection</value>
+			<key name="opusflags">
+				<value name="Position" type="sz">0</value>
+			</key>
+			<key name="command">
+				<value name="@default" type="sz">delete removecollection</value>
+			</key>
+		</key>
+		<key name="opencontainer">
+			<value name="@default" type="sz">Open Conta&amp;ining Folder</value>
+			<key name="opusflags">
+				<value name="Position" type="sz">1</value>
+			</key>
+			<key name="command">
+				<value name="@default" type="sz">go opencontainer</value>
+			</key>
+		</key>
+	</key>
+</xml_registry_redirect>

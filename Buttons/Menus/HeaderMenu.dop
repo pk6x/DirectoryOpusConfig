@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<toolbar version="12.33">
+	<wallpaper enabled="no" inheritable="yes" type="tile" />
+	<buttons backcol="none" display="label" textcol="none" type="menu">
+		<button backcol="none" display="label" label_pos="right" textcol="none">
+			<label>Remove</label>
+			<function type="normal">
+				<instruction>SET COLUMNSREMOVE=%header%</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none">
+			<label>Group</label>
+			<function type="normal">
+				<instruction>SET GROUPBY=%header%,toggle</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" textcol="none">
+			<label>Name</label>
+			<function type="normal">
+				<instruction>SET COLUMNSTOGGLE=name(%headeritem%)</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" textcol="none">
+			<label>Size</label>
+			<function type="normal">
+				<instruction>SET COLUMNSTOGGLE=any,sizeauto(%headeritem%)</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" textcol="none">
+			<label>Type</label>
+			<function type="normal">
+				<instruction>SET COLUMNSTOGGLE=type(%headeritem%)</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" textcol="none">
+			<label>Attr</label>
+			<function type="normal">
+				<instruction>SET COLUMNSTOGGLE=attr(%headeritem%)</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" textcol="none">
+			<label>Modified</label>
+			<function type="normal">
+				<instruction>SET COLUMNSTOGGLE=modified(%headeritem%)</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" textcol="none">
+			<label>Created</label>
+			<function type="normal">
+				<instruction>SET COLUMNSTOGGLE=created(%headeritem%)</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" textcol="none">
+			<label>Accessed</label>
+			<function type="normal">
+				<instruction>SET COLUMNSTOGGLE=accessed(%headeritem%)</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none">
+			<label>Description</label>
+			<function type="normal">
+				<instruction>SET COLUMNSTOGGLE=desc(%headeritem%)</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none" type="menu">
+			<label>Columns</label>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>&amp;Columns</label>
+				<function type="normal">
+					<instruction>Set COLUMNSTOGGLE=columnlist,insert</instruction>
+				</function>
+			</button>
+		</button>
+		<button backcol="none" display="label" label_pos="right" textcol="none" type="menu">
+			<label>&amp;Sort By</label>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>Sortable Columns</label>
+				<tip>Displays a list of the current columns allowing you to change the sort order</tip>
+				<function type="normal">
+					<instruction>Set SORTBY=sortlist</instruction>
+				</function>
+			</button>
+		</button>
+		<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none" type="menu">
+			<label>&amp;Group By</label>
+			<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none">
+				<label>Groupable Columns</label>
+				<tip>Displays a list of the current columns allowing you to change the grouping</tip>
+				<function type="normal">
+					<instruction>Set GROUPBY=grouplist</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>&amp;Expand all groups</label>
+				<tip>Expand all file groups</tip>
+				<function type="normal">
+					<instruction>Go GROUPEXPAND=*</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>&amp;Collapse all groups</label>
+				<tip>Collapse all file groups</tip>
+				<function type="normal">
+					<instruction>Go GROUPCOLLAPSE=*</instruction>
+				</function>
+			</button>
+		</button>
+		<button backcol="none" display="label" label_pos="right" textcol="none">
+			<label>More...</label>
+			<tip>Edit the appearance and settings of the current folder</tip>
+			<function type="normal">
+				<instruction>Properties FOLDEROPTIONS</instruction>
+			</function>
+		</button>
+	</buttons>
+</toolbar>

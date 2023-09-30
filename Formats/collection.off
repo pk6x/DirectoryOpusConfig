@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<folder_formats>
+	<path>
+		<format autosize="yes" compatfiles="default" getsizes="off" group="0xfffd" numericname="yes" sort="dirsfirst" threshhold="25" v="2" view_mode="details">
+			<field id="name" sort="1" />
+			<field id="sizeauto" />
+			<field id="type" />
+			<field id="modified" />
+			<field id="attr" />
+			<field id="pathrel" sort="2" />
+		</format>
+		<dir>
+			<pathstring>coll://Duplicate Files</pathstring>
+		</dir>
+	</path>
+	<path>
+		<format autosize="yes" compatfiles="default" getsizes="off" numericname="yes" sort="dirsfirst" threshhold="25" v="2" view_mode="details">
+			<field id="name" sort="1" />
+			<field id="sizeauto" />
+			<field id="type" />
+			<field id="modified" />
+			<field id="attr" />
+			<field id="pathrel" sort="2" />
+		</format>
+		<dir>
+			<pathstring>coll://Find Results</pathstring>
+		</dir>
+	</path>
+</folder_formats>

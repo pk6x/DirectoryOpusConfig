@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<lister_layout flags="1" name="Synchronize Lister">
+	<lister state="0x4000">
+		<wp ptmax="0,0,100" ptmin="0,0,100" rc="20,20,820,620,100" showcmd="3" />
+		<layout flags="0x80b" tree_size="160,0" tree_size_dpi="100" util_page="1" util_page_name="sync" util_size="245" util_size_dpi="100" view_mode="details,details" />
+	</lister>
+</lister_layout>

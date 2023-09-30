@@ -1,0 +1,662 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<toolbar version="12.33">
+	<wallpaper enabled="yes" inheritable="yes" type="share">
+		<std_type>toolbar</std_type>
+	</wallpaper>
+	<buttons backcol="none" display="label" textcol="none" type="menu">
+		<button backcol="none" display="label" label_pos="right" textcol="none" type="menu">
+			<label>&amp;File</label>
+			<button backcol="none" display="label" hotkey="ctrl+O" label_pos="right" textcol="none">
+				<label>&amp;Open...\tCtrl+O</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=open</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>&amp;Next Picture\tSpace</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=next</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none">
+				<label>Prev&amp;ious Picture\tBackspace</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=prev</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>Op&amp;en Containing Folder</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=selectfile</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" hotkey="f5" label_pos="right" separate="yes" textcol="none">
+				<label>Refresh\tF5</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=refresh</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" hotkey="ctrl+S" label_pos="right" textcol="none">
+				<label>&amp;Save\tCtrl+S</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=save</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" hotkey="ctrl+shift+S" label_pos="right" textcol="none">
+				<label>S&amp;ave As...\tCtrl+Shift+S</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=saveas</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" hotkey="ctrl+P" label_pos="right" separate="yes" textcol="none">
+				<label>P&amp;rint...\tCtrl+P</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=print</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" hotkey="ctrl+I" label_pos="right" separate="yes" textcol="none">
+				<label>Con&amp;vert Image...\tCtrl+I</label>
+				<function type="normal">
+					<instruction>@useimagedata</instruction>
+					<instruction>Image CONVERT</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none">
+				<label>P&amp;lugin Commands</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=plugincmds</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none" type="menu">
+				<label>&amp;Plugin</label>
+				<button backcol="none" display="label" label_pos="right" textcol="none">
+					<label>&amp;Configure...</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=plugincfg</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" label_pos="right" textcol="none">
+					<label>&amp;About...</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=pluginabout</instruction>
+					</function>
+				</button>
+			</button>
+			<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none" type="menu">
+				<label>Se&amp;t As Desktop Wallpaper</label>
+				<button backcol="none" display="label" label_pos="right" textcol="none">
+					<label>&amp;Center</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=wallpaper,center</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" label_pos="right" textcol="none">
+					<label>&amp;Tile</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=wallpaper,tile</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" label_pos="right" textcol="none">
+					<label>&amp;Stretch</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=wallpaper,stretch</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" label_pos="right" textcol="none">
+					<label>&amp;Fit</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=wallpaper,fit</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" label_pos="right" textcol="none">
+					<label>F&amp;ill</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=wallpaper,fill</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" label_pos="right" textcol="none">
+					<label>S&amp;pan</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=wallpaper,span</instruction>
+					</function>
+				</button>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>&amp;Close</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=close</instruction>
+				</function>
+			</button>
+		</button>
+		<button backcol="none" display="label" label_pos="right" textcol="none" type="menu">
+			<label>&amp;Edit</label>
+			<button backcol="none" display="label" hotkey="ctrl+Y" label_pos="right" textcol="none">
+				<label>&amp;Copy To...\tCtrl+Y</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=copyto</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>&amp;Move To...\tCtrl+V</label>
+				<hotkeys>
+					<key>ctrl+V</key>
+					<key>shift+insert</key>
+				</hotkeys>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=moveto</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none">
+				<label>&amp;Rename\tF2</label>
+				<function type="normal">
+					<instruction>Rename SIMPLE</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" hotkey="ctrl+X" label_pos="right" textcol="none">
+				<label>C&amp;ut File\tCtrl+X</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=cut</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none">
+				<label>&amp;Delete\tDelete</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=delete</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" hotkey="ctrl+A" label_pos="right" textcol="none">
+				<label>&amp;Select All\tCtrl+A</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=selectall</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" hotkey="shift+R" label_pos="right" textcol="none">
+				<label>R&amp;eselect\tShift+R</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=reselect</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none">
+				<label>C&amp;opy\tCtrl+C</label>
+				<hotkeys>
+					<key>ctrl+C</key>
+					<key>ctrl+insert</key>
+				</hotkeys>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=copy</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" hotkey="ctrl+R" label_pos="right" textcol="none">
+				<label>Cro&amp;p\tCtrl+R</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=crop</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" hotkey="ctrl+Z" label_pos="right" separate="yes" textcol="none">
+				<label>U&amp;ndo\tCtrl+Z</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=restore</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" hotkey="f9" label_pos="right" separate="yes" textcol="none">
+				<label>Ed&amp;it Metadata\tF9</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=meta</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>Pre&amp;ferences...</label>
+				<tip>Opens the Directory Opus Preferences editor</tip>
+				<function type="normal">
+					<instruction>Prefs PAGE=viewer</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>Cus&amp;tomize Toolbars...</label>
+				<tip>Lets you customize the toolbars and menus</tip>
+				<function type="normal">
+					<instruction>Prefs CUSTOMIZE</instruction>
+				</function>
+			</button>
+		</button>
+		<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none" type="menu">
+			<label>&amp;View</label>
+			<button backcol="none" display="label" hotkey="ctrl+N" label_pos="right" textcol="none">
+				<label>&amp;Menu Bar\tCtrl+N</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=toolbar</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" hotkey="ctrl+B" label_pos="right" textcol="none">
+				<label>&amp;Status Bar\tCtrl+B</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=statusbar</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" hotkey="ctrl+L" label_pos="right" separate="yes" textcol="none">
+				<label>&amp;Control Bar\tCtrl+L</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=shortcutbar</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none" type="menu">
+				<label>&amp;View Size</label>
+				<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none">
+					<label>&amp;Original Size\tO</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=zoom,reset</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" hotkey="ctrl+1" label_pos="right" textcol="none">
+					<label>&amp;25% \tCtrl+1</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=zoom,25</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" hotkey="ctrl+2" label_pos="right" textcol="none">
+					<label>&amp;50% \tCtrl+2</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=zoom,50</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" hotkey="ctrl+3" label_pos="right" textcol="none">
+					<label>&amp;75% \tCtrl+3</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=zoom,75</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" hotkey="ctrl+4" label_pos="right" textcol="none">
+					<label>&amp;150% \tCtrl+4</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=zoom,150</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" hotkey="ctrl+5" label_pos="right" textcol="none">
+					<label>2&amp;00% \tCtrl+5</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=zoom,200</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" hotkey="ctrl+6" label_pos="right" textcol="none">
+					<label>&amp;300% \tCtrl+6</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=zoom,300</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" hotkey="ctrl+7" label_pos="right" textcol="none">
+					<label>&amp;400% \tCtrl+7</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=zoom,400</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" hotkey="ctrl+8" label_pos="right" separate="yes" textcol="none">
+					<label>&amp;800% \tCtrl+8</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=zoom,800</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" label_pos="right" textcol="none">
+					<label>&amp;Fit To Page\tF</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=zoom,fit</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" label_pos="right" textcol="none">
+					<label>&amp;Grow To Page\tG</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=zoom,grow</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" label_pos="right" textcol="none">
+					<label>&amp;Tiled</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=zoom,tile</instruction>
+					</function>
+				</button>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none" type="menu">
+				<label>&amp;Rotate View</label>
+				<button backcol="none" display="label" label_pos="right" textcol="none">
+					<label>&amp;Rotate Left\tL</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=rotate,-90</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none">
+					<label>R&amp;otate Right\tR</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=rotate,+90</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" hotkey="0" label_pos="right" textcol="none">
+					<label>&amp;0°\t0</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=rotate,reset</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" hotkey="1" label_pos="right" textcol="none">
+					<label>&amp;90°\t1</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=rotate,90</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" hotkey="2" label_pos="right" textcol="none">
+					<label>&amp;180°\t2</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=rotate,180</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" hotkey="3" label_pos="right" separate="yes" textcol="none">
+					<label>&amp;270°\t3</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=rotate,270</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" hotkey="H" label_pos="right" textcol="none">
+					<label>&amp;Flip Horizontally\tH</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=flip,horiz</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" hotkey="V" label_pos="right" textcol="none">
+					<label>F&amp;lip Vertically\tV</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=flip,vert</instruction>
+					</function>
+				</button>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none" type="menu">
+				<label>&amp;Gamma Correction</label>
+				<button backcol="none" display="label" hotkey="shift+num+" label_pos="right" textcol="none">
+					<label>&amp;Increase\tShift+Num +</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=gamma,+10</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" hotkey="shift+num-" label_pos="right" separate="yes" textcol="none">
+					<label>&amp;Decrease\tShift+Num -</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=gamma,-10</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" hotkey="shift+num*" label_pos="right" textcol="none">
+					<label>&amp;Reset\tShift+Num *</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=gamma,reset</instruction>
+					</function>
+				</button>
+			</button>
+			<button backcol="none" display="label" hotkey="shift+A" label_pos="right" textcol="none">
+				<label>&amp;Hide Alpha Channel\tShift+A</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=alpha</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" hotkey="shift+X" label_pos="right" separate="yes" textcol="none">
+				<label>V&amp;iew As Hex\tShift+X</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=hex</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" hotkey="f10" label_pos="right" textcol="none">
+				<label>Sh&amp;ow Information\tF10</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=info</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none">
+				<label>S&amp;ave Minimum Width</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=minwidth</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" hotkey="S" label_pos="right" textcol="none">
+				<label>S&amp;lideshow\tS</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=slideshow</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>&amp;Full Screen\tAlt+Enter</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=fullscreen</instruction>
+				</function>
+			</button>
+		</button>
+		<button backcol="none" display="icon" label_pos="right" textcol="none" timed="yes" type="menu_button">
+			<label>Pr&amp;evious Picture</label>
+			<tip>Previous Picture</tip>
+			<icon1>#viewerprev</icon1>
+			<function type="normal">
+				<instruction>@keydown:ctrl</instruction>
+				<instruction>Show VIEWERCMD=mark,prev</instruction>
+				<instruction>@keydown:else</instruction>
+				<instruction>Show VIEWERCMD=prev</instruction>
+			</function>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>Previous Pictures List</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=prevlist</instruction>
+				</function>
+			</button>
+		</button>
+		<button backcol="none" display="icon" label_pos="right" textcol="none" timed="yes" type="menu_button">
+			<label>&amp;Next Picture</label>
+			<tip>Next Picture</tip>
+			<icon1>#viewernext</icon1>
+			<function type="normal">
+				<instruction>@keydown:ctrl</instruction>
+				<instruction>Show VIEWERCMD=mark,next</instruction>
+				<instruction>@keydown:else</instruction>
+				<instruction>Show VIEWERCMD=next</instruction>
+			</function>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>Next Pictures List</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=nextlist</instruction>
+				</function>
+			</button>
+		</button>
+		<button backcol="none" display="icon" hotkey="L" label_pos="right" textcol="none">
+			<label>Rotate Left</label>
+			<icon1>#viewerrotateleft</icon1>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=rotate,-90</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="icon" hotkey="R" label_pos="right" separate="yes" textcol="none">
+			<label>Rotate Right</label>
+			<icon1>#viewerrotateright</icon1>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=rotate,+90</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="icon" label_pos="right" textcol="none">
+			<label>Zoom In</label>
+			<hotkeys>
+				<key>187,0</key>
+				<key>num+</key>
+			</hotkeys>
+			<icon1>#viewerzoomin</icon1>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=zoom,+</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="icon" label_pos="right" textcol="none">
+			<label>Zoom Out</label>
+			<hotkeys>
+				<key>189,0</key>
+				<key>num-</key>
+			</hotkeys>
+			<icon1>#viewerzoomout</icon1>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=zoom,-</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="icon" label_pos="right" textcol="none">
+			<label>Original Size</label>
+			<hotkeys>
+				<key>O</key>
+				<key>num*</key>
+			</hotkeys>
+			<icon1>#viewerzoomorig</icon1>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=zoom,reset</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="icon" hotkey="F" label_pos="right" textcol="none">
+			<label>Fit To Page</label>
+			<icon1>#viewerzoomfit</icon1>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=zoom,fit</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="icon" hotkey="G" label_pos="right" separate="yes" textcol="none">
+			<label>Grow To Page</label>
+			<icon1>#viewerzoomgrow</icon1>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=zoom,grow</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="both" hotkey="alt+enter" label_pos="right" separate="yes" textcol="none">
+			<label>Full Screen</label>
+			<icon1>#viewerfullscreen</icon1>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=fullscreen</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="both" label_pos="right" textcol="none" type="menu_button">
+			<label>&amp;Mark</label>
+			<hotkeys>
+				<key>M</key>
+				<key>insert</key>
+			</hotkeys>
+			<icon1>#markpicture</icon1>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=mark,toggle,nohighlight</instruction>
+			</function>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>&amp;Mark File\tM</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=mark,toggle</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none">
+				<label>&amp;Exchange Mark\tShift+M</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=mark,exchange</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none" type="menu">
+				<label>&amp;Go To</label>
+				<button backcol="none" display="label" hotkey="ctrl+up" label_pos="right" textcol="none">
+					<label>&amp;First Marked\tCtrl+Up Arrow</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=mark,first</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" hotkey="ctrl+left" label_pos="right" textcol="none">
+					<label>&amp;Previous Marked\tCtrl+Left Arrow</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=mark,prev</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" hotkey="ctrl+right" label_pos="right" textcol="none">
+					<label>&amp;Next Marked\tCtrl+Right Arrow</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=mark,next</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" hotkey="ctrl+down" label_pos="right" separate="yes" textcol="none">
+					<label>&amp;Last Marked\tCtrl+Down Arrow</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=mark,last</instruction>
+					</function>
+				</button>
+				<button backcol="none" display="label" hotkey="ctrl+space" label_pos="right" textcol="none">
+					<label>&amp;Return from &quot;Go&quot;\tCtrl+Space</label>
+					<function type="normal">
+						<instruction>Show VIEWERCMD=mark,return</instruction>
+					</function>
+				</button>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>&amp;Show Marked Pictures Pane\tCtrl+M</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=mark,view</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none">
+				<label>&amp;Browse Marked Pictures...</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=mark,browse</instruction>
+				</function>
+			</button>
+			<button backcol="none" display="label" label_pos="right" textcol="none">
+				<label>&amp;Clear Marked Pictures</label>
+				<function type="normal">
+					<instruction>Show VIEWERCMD=mark,clear</instruction>
+				</function>
+			</button>
+		</button>
+		<button backcol="none" display="icon" hotkey="shift+M" label_pos="right" textcol="none">
+			<label>Exchange Mark</label>
+			<icon1>#exchangemarkedpicture</icon1>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=mark,exchange</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="icon" hotkey="ctrl+M" label_pos="right" separate="yes" textcol="none">
+			<label>Show Marked Pictures Pane</label>
+			<icon1>#showmarkedpictures</icon1>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=mark,view</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="both" hotkey="f2" label_pos="right" textcol="none">
+			<label>Rename</label>
+			<icon1>#rename</icon1>
+			<function type="normal">
+				<instruction>Rename SIMPLE</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="both" label_pos="right" separate="yes" textcol="none">
+			<label>Delete</label>
+			<hotkeys>
+				<key>delete</key>
+				<key>shift+delete</key>
+			</hotkeys>
+			<icon1>#delete</icon1>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=delete</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="icon" label_pos="right" textcol="none">
+			<label>Open Containing Folder</label>
+			<icon1>#folder</icon1>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=selectfile</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="label" field_type="spacer" label_pos="right" size="full" textcol="none">
+			<label>Spacer</label>
+			<function type="normal">
+				<instruction>Set SPACER</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="icon" hotkey="f1" label_pos="right" textcol="none">
+			<label>Help</label>
+			<icon1>#help</icon1>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=help</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="icon" label_pos="right" textcol="none">
+			<label>Close</label>
+			<icon1>#closelister</icon1>
+			<function type="normal">
+				<instruction>Show VIEWERCMD=close,onlyfullscreen</instruction>
+			</function>
+		</button>
+	</buttons>
+</toolbar>
