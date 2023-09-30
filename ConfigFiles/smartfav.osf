@@ -1,13 +1,25 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <smartfaves>
-	<entry dest_points="10" points="41">
+	<entry dest_points="10" points="52">
 		<pathstring>D:\downloads</pathstring>
 	</entry>
 	<entry dest_points="20" points="20">
 		<pathstring>D:\Program Files\GPSoftware\Directory Opus</pathstring>
 	</entry>
+	<entry points="9">
+		<pathstring>C:\Users\aamg\AppData\Roaming</pathstring>
+	</entry>
+	<entry points="8">
+		<pathstring>C:\Users\aamg\AppData\Roaming\ClangPowerTools</pathstring>
+	</entry>
 	<entry points="8">
 		<pathstring>G:\My Drive\setup_files\A_windows\configs</pathstring>
+	</entry>
+	<entry points="6">
+		<pathstring>C:\</pathstring>
+	</entry>
+	<entry points="6">
+		<pathstring>C:\Users\aamg\AppData\Roaming\GPSoftware\Directory Opus</pathstring>
 	</entry>
 	<entry points="6">
 		<pathstring>G:\My Drive</pathstring>

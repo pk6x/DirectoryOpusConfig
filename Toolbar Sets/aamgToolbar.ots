@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <toolbars flags="0">
 	<toolbar type="top">
-		<file>Menu (Me).dop</file>
+		<file>Menu (aamg).dop</file>
 	</toolbar>
 	<toolbar type="top">
-		<file>My Main Toolbar (Me).dop</file>
+		<file>My Main Toolbar (aamg).dop</file>
 	</toolbar>
 	<toolbar type="top">
-		<file>Custom Location Bar (Thio).dop</file>
+		<file>Custom Location Bar (aamg).dop</file>
 	</toolbar>
 	<toolbar type="fdbottom">
-		<file>Utilities (Me).dop</file>
+		<file>Utilities (aamg).dop</file>
 	</toolbar>
 </toolbars>

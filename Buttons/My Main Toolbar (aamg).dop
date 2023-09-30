@@ -12,6 +12,14 @@
 				<instruction>CreateFolder</instruction>
 			</function>
 		</button>
+		<button backcol="none" display="both" hotkey="shift+delete" label_pos="right" textcol="none">
+			<label>Delete</label>
+			<tip>Delete selected files</tip>
+			<icon1>#delete</icon1>
+			<function type="normal">
+				<instruction>Delete RECYCLE SHIFT </instruction>
+			</function>
+		</button>
 		<button backcol="none" display="both" label_pos="right" textcol="none">
 			<label>Undo</label>
 			<tip>Undo the previous file action (copy, delete, rename, move, etc)</tip>
@@ -26,6 +34,14 @@
 			<icon1>#refresh</icon1>
 			<function type="normal">
 				<instruction>Go REFRESH</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="both" label_pos="right" textcol="none">
+			<label>Home</label>
+			<tip>Go to This PC</tip>
+			<icon1>#gomycomputer</icon1>
+			<function type="normal">
+				<instruction>Go PATH=&quot;/mycomputer&quot;</instruction>
 			</function>
 		</button>
 		<button backcol="none" display="label" field_type="spacer" size="full" textcol="none">

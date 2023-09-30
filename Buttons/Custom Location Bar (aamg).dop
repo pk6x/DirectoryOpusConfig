@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<toolbar version="12.29">
+<toolbar version="12.33">
 	<wallpaper enabled="yes" inheritable="yes" type="share">
 		<std_type>filedisplay</std_type>
 	</wallpaper>
@@ -161,7 +161,7 @@
 				<instruction>Go PATHFIELDPATHTREE</instruction>
 			</function>
 		</button>
-		<button backcol="none" display="icon" dpi="150" field_type="search" hotkey="f3" label_pos="right" size="302" textcol="none">
+		<button backcol="none" display="icon" dpi="100" field_type="search" hotkey="f3" label_pos="right" size="201" textcol="none">
 			<label>Search</label>
 			<tip>Displays a quick search field letting you search the current folder</tip>
 			<function type="normal">
