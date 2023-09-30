@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <prefs opus_version_beta="0" opus_version_major="12" opus_version_minor="33" version="6">
 	<fileop flags1="0x8002802c086e7" flags2="0x20000002" jobs_button_width="110" jobs_button_width2="110,0,100" secure_delete="3" upload_modified_time="20" />
-	<flags misc="0xa01" powermode="0x9001,0xa040,0x8080" settings1="0xc18400440209b8" settings2="0x1c0000420901420" settings3="0x2003000010600090" settings4="0x8300402801504" settings5="0x5e08000194412241" settings6="0x80000000000" />
+	<flags misc="0xa01" powermode="0x9001,0xa040,0x8080" settings1="0xc18400440209b8" settings2="0x1c0000020d01420" settings3="0x2023000010601020" settings4="0x8300402801504" settings5="0x5e08084194412240" settings6="0x80000000000" />
 	<timing dblclkhighlight="3" hover="1000" progress="800" slideout="400" tabtofront="1000" toolbarslidehide="200" toolbarslideprehide="500" toolbarslideprereveal="0" toolbarslidereveal="100" tooltip="750" />
 	<blending drag="50" file="75" graph="40" nofocus="50" nofocus_tree="50" select="33" />
 	<smtp>
@@ -184,9 +184,12 @@
 		</fields>
 	</colors>
 	<viewpane bg_col="#191919" flags="257" gamma="100" pic_col="#191919" />
-	<layout new_flags="0x6001">
+	<layout new_flags="0x46440">
 		<startup />
 		<command />
+		<initial_dual>
+			<pathstring>D:\</pathstring>
+		</initial_dual>
 		<lister_title>%T - Directory Opus</lister_title>
 	</layout>
 	<dblclk flags="0x800405">
@@ -217,7 +220,7 @@
 	<tiles flags="206" size="0x3001a" spacing="0x40004" spacing2="4,4,100" thumb_size="0x400040" thumb_size2="64,64,100">
 		<colors fill="#ffffff" plating1="#c0c0c0" plating2="#ffffff" plating3="#808080" plating4="#808080" />
 	</tiles>
-	<recent flags="31" history="10" limit="10" />
+	<recent flags="26" history="10" limit="10" />
 	<smartfav limit="10" points="0x5,0x5,0x5,0xa,0x8,0x8,0x3,0x5,0x8,0x5,0xa,0xa,0x8,0x5,0xa,0x8,0x8,0x0,0x0" size="100" thresh="40" />
 	<viewer bg="#fcfcfc" customtitle="" dblclkcmd="" edgewidth="20" flags="0x202c1901" flags2="0xc0000" gamma="100" lbuttoncmd="" markedthumb="64,64,100" mbuttoncmd="" minwidth="533,0,100" speed="10.000000" tagcol="Marked Pictures\%F" />
 	<foldertab_size>0x640071</foldertab_size>
@@ -225,7 +228,7 @@
 	<foldertab_size3>113,100,100</foldertab_size3>
 	<foldertab_size4>100,128,100</foldertab_size4>
 	<transanims disable="yes" navback="default" navforward="default" navinto="default" navother="default" navup="default" prefspages="default" />
-	<jumplist flags="0xf4210" />
+	<jumplist flags="0xf4610" />
 	<filters prefix="">
 		<hide>
 			<file>(desktop.ini|thumbs.db|ehthumbs_vista.db)</file>

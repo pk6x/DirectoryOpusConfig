@@ -163,6 +163,7 @@ Samplerate:	{mp3samplerate}</value>
 {picsize}{!picsize&amp;framerate} ({!}{framerate}{!picsize&amp;framerate}){!}
 {mp3songlength}</value>
 		</key>
+		<value name="ShownTooltipHelper" type="dword">2</value>
 	</key>
 	<key name="Programs">
 		<value name="@default" type="sz">Programs</value>
