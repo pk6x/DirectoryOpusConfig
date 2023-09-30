@@ -1,31 +1,63 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <lister_layout flags="1">
-	<lister state="0x8000">
-		<wp rc="1697,5,2562,705,100" showcmd="1" />
+	<lister state="0x4000">
+		<wp rc="1697,697,2562,1397,100" showcmd="1" />
 		<layout flags="0x103000003" tree_size="186,0" tree_size_dpi="100" view_mode="details,details" well_width="128,0" well_width_dpi="100" />
 		<filedisplay>
-			<left buf_flags="0x20020" flags="0" name="">
-				<pathstring>G:\My Drive\setup_files\A_windows\configs</pathstring>
+			<left buf_flags="0x420020" flags="0" name="">
+				<pathstring>C:\Users\aamg\AppData\Roaming</pathstring>
 				<format autosize="yes" compatfiles="default" getsizes="default" numericname="yes" sort="dirsfirst" threshhold="25" type="0x8000000" v="2" view_mode="details">
-					<field id="name" size="263" size_dpi="100" sort="1" />
-					<field id="sizeauto" size="58" size_dpi="100" />
-					<field id="type" size="117" size_dpi="100" />
+					<field id="name" size="156" size_dpi="100" sort="1" />
+					<field id="sizeauto" size="65" size_dpi="100" />
+					<field id="type" size="134" size_dpi="100" />
 					<field id="modified" size="108" size_dpi="100" />
-					<field id="attr" size="51" size_dpi="100" />
+					<field id="attr" size="53" size_dpi="100" />
+				</format>
+				<curdir>
+					<3>
+						<pathstring>C:\Users\aamg\AppData\Roaming</pathstring>
+					</3>
+				</curdir>
+				<vars />
+			</left>
+		</filedisplay>
+		<tabs1 active="1">
+			<tab buf_flags="0x20020" flags="0" name="">
+				<pathstring>C:\Users\aamg\Desktop\programs</pathstring>
+				<format autosize="yes" compatfiles="default" getsizes="default" numericname="yes" sort="dirsfirst" threshhold="25" type="0x8000000" v="2" view_mode="details">
+					<field id="name" size="188" size_dpi="100" sort="1" />
+					<field id="sizeauto" size="65" size_dpi="100" />
+					<field id="type" size="134" size_dpi="100" />
+					<field id="modified" size="108" size_dpi="100" />
+					<field id="attr" size="54" size_dpi="100" />
 				</format>
 				<curdir>
 					<3>
 						<pathstring>C:\Users\aamg\Desktop\programs</pathstring>
 					</3>
-					<7>
-						<pathstring>G:\My Drive\setup_files\A_windows\configs</pathstring>
-					</7>
 				</curdir>
 				<vars />
-			</left>
-		</filedisplay>
+			</tab>
+			<tab buf_flags="0x420020" flags="0" name="">
+				<pathstring>C:\Users\aamg\AppData\Roaming</pathstring>
+				<format autosize="yes" compatfiles="default" getsizes="default" numericname="yes" sort="dirsfirst" threshhold="25" type="0x8000000" v="2" view_mode="details">
+					<field id="name" size="156" size_dpi="100" sort="1" />
+					<field id="sizeauto" size="65" size_dpi="100" />
+					<field id="type" size="134" size_dpi="100" />
+					<field id="modified" size="108" size_dpi="100" />
+					<field id="attr" size="53" size_dpi="100" />
+				</format>
+				<curdir>
+					<3>
+						<pathstring>C:\Users\aamg\AppData\Roaming</pathstring>
+					</3>
+				</curdir>
+				<vars />
+			</tab>
+		</tabs1>
 		<tree_expand>
 			<tree1>
+				<item id="{679F85CB-0220-4080-B29B-5540CC05AAB6}" />
 				<item id="{B52C30E0-7FF9-47CC-B112-A3D9374CD79E}" />
 			</tree1>
 		</tree_expand>

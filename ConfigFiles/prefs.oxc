@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <prefs opus_version_beta="0" opus_version_major="12" opus_version_minor="33" version="6">
 	<fileop flags1="0x8002802c086e7" flags2="0x20000002" jobs_button_width="110" jobs_button_width2="110,0,100" secure_delete="3" upload_modified_time="20" />
-	<flags misc="0xa01" powermode="0x9001,0xa040,0x8080" settings1="0xc18400440209b8" settings2="0x1c0000621901420" settings3="0x2003000010600090" settings4="0x8300402801504" settings5="0x5e08000194412241" settings6="0x80000000000" />
+	<flags misc="0xa01" powermode="0x9001,0xa040,0x8080" settings1="0xc18400440209b8" settings2="0x1c0000420901420" settings3="0x2003000010600090" settings4="0x8300402801504" settings5="0x5e08000194412241" settings6="0x80000000000" />
 	<timing dblclkhighlight="3" hover="1000" progress="800" slideout="400" tabtofront="1000" toolbarslidehide="200" toolbarslideprehide="500" toolbarslideprereveal="0" toolbarslidereveal="100" tooltip="750" />
 	<blending drag="50" file="75" graph="40" nofocus="50" nofocus_tree="50" select="33" />
 	<smtp>
@@ -19,7 +19,7 @@
 		<dual>{i:dir}  {sdL} / {tdL} {||}{i:file}  {sfL} / {tfL} {||}{h!L} &lt;#FF0000&gt;&lt;b&gt;{hiL} hidden&lt;/b&gt;&lt;/#&gt; {h!L}{||}{h!L} &lt;#008800&gt;&lt;b&gt;{hseL}&lt;/b&gt;&lt;/#&gt; {h!L}{||} {sbaL} / {tbaL} {||}{h!L} {dfL} {bgL+w=50,f=2,g=3,t=n,c1=#68f040,c2=#f06840} {h!L}{rleft-}{||}{i:dir}  {sdR} / {tdR} {||}{i:file}  {sfR} / {tfR} {||}{h!R} &lt;#FF0000&gt;&lt;b&gt;{hiR} hidden&lt;/b&gt;&lt;/#&gt; {h!R}{||}{h!R} &lt;#008800&gt;&lt;b&gt;{hseR}&lt;/b&gt;&lt;/#&gt; {h!R}{||} {sbaR} / {tbaR} {rpad}{||}{h!R} {dfR} {bgR+w=50,f=2,g=3,t=n,c1=#68f040,c2=#f06840}{h!R}{||}{fl}</dual>
 		<left>{i:dir}  {sd} / {td} {||}{i:file}  {sf} / {tf} {||}{h!} &lt;#FF0000&gt;&lt;b&gt;{hi} hidden&lt;/b&gt;&lt;/#&gt; {h!}{||}{h!} &lt;#008800&gt;&lt;b&gt;{hse}&lt;/b&gt;&lt;/#&gt; {h!}{||} {sba} / {tba} {rpad}{||}{h!} {ls} {h!}{||}{fl}{||}{h!} {df} {bg+w=50,f=2,g=3,t=n,c1=#68f040,c2=#f06840}{h!}</left>
 		<right>{i:dir}  {sd} / {td} {||}{i:file}  {sf} / {tf} {||}{h!} &lt;#FF0000&gt;&lt;b&gt;{hi} hidden&lt;/b&gt;&lt;/#&gt; {h!}{||}{h!} &lt;#008800&gt;&lt;b&gt;{hse}&lt;/b&gt;&lt;/#&gt; {h!}{||} {sba} / {tba} {rpad}{||}{h!} {ls} {h!}{||}{fl}{||}{h!} {df} {bg+w=50,f=2,g=3,t=n,c1=#68f040,c2=#f06840}{h!}</right>
-		<tortoise_set>XPStyle</tortoise_set>
+		<tortoise_set />
 	</status>
 	<tree>
 		<actions>
