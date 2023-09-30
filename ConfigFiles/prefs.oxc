@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <prefs opus_version_beta="0" opus_version_major="12" opus_version_minor="33" version="6">
 	<fileop flags1="0x8002802c086e7" flags2="0x20000002" jobs_button_width="110" jobs_button_width2="110,0,100" secure_delete="3" upload_modified_time="20" />
-	<flags misc="0xa01" powermode="0x9001,0xa040,0x8080" settings1="0xc18400440209b8" settings2="0x1c0000020d01420" settings3="0x2023000010601020" settings4="0x8300402801504" settings5="0x5e08084194412240" settings6="0x80000000000" />
+	<flags misc="0xa01" powermode="0x9001,0xa040,0x8080" settings1="0xc18400440209b8" settings2="0x1c0000020d01420" settings3="0x2223000010605020" settings4="0x8700406801504" settings5="0x5e08e84184412240" settings6="0x80000000000" />
 	<timing dblclkhighlight="3" hover="1000" progress="800" slideout="400" tabtofront="1000" toolbarslidehide="200" toolbarslideprehide="500" toolbarslideprereveal="0" toolbarslidereveal="100" tooltip="750" />
 	<blending drag="50" file="75" graph="40" nofocus="50" nofocus_tree="50" select="33" />
 	<smtp>
@@ -184,7 +184,7 @@
 		</fields>
 	</colors>
 	<viewpane bg_col="#191919" flags="257" gamma="100" pic_col="#191919" />
-	<layout new_flags="0x46440">
+	<layout new_flags="0x46441">
 		<startup />
 		<command />
 		<initial_dual>
@@ -192,7 +192,7 @@
 		</initial_dual>
 		<lister_title>%T - Directory Opus</lister_title>
 	</layout>
-	<dblclk flags="0x800405">
+	<dblclk flags="0x800005">
 		<layout />
 		<command />
 		<icon_layout />

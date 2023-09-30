@@ -2,7 +2,7 @@
 <lister_layout flags="1">
 	<lister state="0x4000">
 		<wp rc="1697,697,2562,1397,100" showcmd="1" />
-		<layout flags="0x103000003" tree_size="186,0" tree_size_dpi="100" view_mode="details,details" well_width="128,0" well_width_dpi="100" />
+		<layout flags="0x103000003" tree_size="256,0" tree_size_dpi="100" view_mode="details,details" well_width="128,0" well_width_dpi="100" />
 		<filedisplay>
 			<left buf_flags="0x22000" flags="0" name="">
 				<pidl>?AAAAFAAfUOBP0CDqOmkQotgIACswMJ0AAA==</pidl>
@@ -16,8 +16,11 @@
 				</format>
 				<curdir>
 					<3>
-						<pathstring>C:\Users\aamg\Desktop\check_later</pathstring>
+						<pathstring>C:\</pathstring>
 					</3>
+					<4>
+						<pathstring>D:\</pathstring>
+					</4>
 				</curdir>
 				<vars />
 			</left>
@@ -26,6 +29,7 @@
 			<tree1>
 				<item id="{679F85CB-0220-4080-B29B-5540CC05AAB6}" />
 				<item id="{B52C30E0-7FF9-47CC-B112-A3D9374CD79E}" />
+				<item id="{D292EBAB-A75E-46A2-AD89-DAEACAF29C75}" />
 			</tree1>
 		</tree_expand>
 	</lister>
