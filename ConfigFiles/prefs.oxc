@@ -31,7 +31,7 @@
 		</actions>
 	</tree>
 	<fonts>
-		<files>Segoe UI/-12,400,0,0,0,1,0,100,9</files>
+		<files>Segoe UI/-19,400,0,0,0,1,0,100,14</files>
 		<tree>Segoe UI/-12,400,0,0,0,1,0,100,9</tree>
 		<status>Segoe UI/-12,400,0,0,0,1,0,100,9</status>
 		<header>Segoe UI/-12,400,0,0,0,1,0,100,9</header>
@@ -192,14 +192,14 @@
 		</initial_dual>
 		<lister_title>%T - Directory Opus</lister_title>
 	</layout>
-	<dblclk flags="0x800005">
+	<dblclk flags="0x800006">
 		<layout />
 		<command />
 		<icon_layout />
 		<icon_command />
 		<win_e_layout />
 		<win_e_command />
-		<text>C:\Program Files\Notepad++\notepad++.exe</text>
+		<text>C:\Program Files\Vim\vim90\vim.exe</text>
 		<file_display>Go UP BACK</file_display>
 		<file_display_mmb />
 	</dblclk>
@@ -222,7 +222,7 @@
 	</tiles>
 	<recent flags="26" history="10" limit="10" />
 	<smartfav limit="10" points="0x5,0x5,0x5,0xa,0x8,0x8,0x3,0x5,0x8,0x5,0xa,0xa,0x8,0x5,0xa,0x8,0x8,0x0,0x0" size="100" thresh="40" />
-	<viewer bg="#fcfcfc" customtitle="" dblclkcmd="" edgewidth="20" flags="0x202c1901" flags2="0xc0000" gamma="100" lbuttoncmd="" markedthumb="64,64,100" mbuttoncmd="" minwidth="533,0,100" speed="10.000000" tagcol="Marked Pictures\%F" />
+	<viewer bg="#fcfcfc" customtitle="" dblclkcmd="" edgewidth="20" flags="0x202c1900" flags2="0xc0000" gamma="100" lbuttoncmd="" markedthumb="64,64,100" mbuttoncmd="" minwidth="533,0,100" speed="10.000000" tagcol="Marked Pictures\%F" />
 	<foldertab_size>0x640071</foldertab_size>
 	<foldertab_size2>0x800064</foldertab_size2>
 	<foldertab_size3>113,100,100</foldertab_size3>
