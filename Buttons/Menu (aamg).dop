@@ -14,12 +14,10 @@
 					<instruction>Go NEW</instruction>
 				</function>
 			</button>
-			<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none">
+			<button backcol="none" display="both" label_pos="right" separate="yes" textcol="none">
 				<label>&amp;Lister Context Menu</label>
 				<tip>Marks the place in a menu where the Windows Shell Lister context menu items are to be displayed</tip>
-				<function type="normal">
-					<instruction>FileType CONTEXTMENU=Directory\Background</instruction>
-				</function>
+				<icon1>#empty</icon1>
 			</button>
 			<button backcol="none" display="label" label_pos="right" separate="yes" textcol="none">
 				<label>&amp;File Menu Marker</label>
@@ -620,36 +618,12 @@
 					<instruction>&quot;/windows\Explorer.exe&quot; /e, {sourcepath$}</instruction>
 				</function>
 			</button>
-			<button backcol="none" display="both" label_pos="right" textcol="none">
-				<label>Po&amp;werShell Here</label>
-				<tip>Opens a PowerShell prompt with the current folder set to the Lister&apos;s current path</tip>
-				<icon1>#cli</icon1>
-				<function type="normal">
-					<instruction>CLI DOSPROMPT=noadmin,powershell</instruction>
-				</function>
-			</button>
-			<button backcol="none" display="both" label_pos="right" textcol="none">
-				<label>Powe&amp;rShell Here (Admin)</label>
-				<tip>Opens an elevated PowerShell prompt with the current folder set to the Lister&apos;s current path</tip>
-				<icon1>#cliadmin</icon1>
-				<function type="normal">
-					<instruction>CLI DOSPROMPT=admin,powershell</instruction>
-				</function>
-			</button>
-			<button backcol="none" display="both" label_pos="right" textcol="none">
+			<button backcol="none" display="both" label_pos="right" separate="yes" textcol="none">
 				<label>Co&amp;mmand Prompt Here</label>
 				<tip>Opens a command prompt with the current folder set to the Lister&apos;s current path</tip>
 				<icon1>#cli</icon1>
 				<function type="normal">
 					<instruction>CLI DOSPROMPT=noadmin</instruction>
-				</function>
-			</button>
-			<button backcol="none" display="both" label_pos="right" separate="yes" textcol="none">
-				<label>Comma&amp;nd Prompt Here (Admin)</label>
-				<tip>Opens an elevated command prompt with the current folder set to the Lister&apos;s current path</tip>
-				<icon1>#cliadmin</icon1>
-				<function type="normal">
-					<instruction>CLI DOSPROMPT=admin</instruction>
 				</function>
 			</button>
 			<button backcol="none" display="label" label_pos="right" textcol="none">
@@ -808,6 +782,13 @@
 			<label>Spacer</label>
 			<function type="normal">
 				<instruction>Set SPACER</instruction>
+			</function>
+		</button>
+		<button backcol="none" display="both" label_pos="right" textcol="none">
+			<label>WT</label>
+			<icon1>#cliadmin</icon1>
+			<function type="normal">
+				<instruction>@admin:&quot;%LOCALAPPDATA%\Microsoft\WindowsApps\wt.exe&quot; -p &quot;Windows PowerShell&quot; -d &quot;{sourcepath|noshort|escbackslash|noterm}&quot;</instruction>
 			</function>
 		</button>
 		<button backcol="none" display="label" dropdown_glyph="yes" label_pos="right" separate="yes" textcol="none" type="menu">
